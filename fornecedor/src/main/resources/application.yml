@@ -1,12 +1,7 @@
-spring:
-  application:
-    name: 'fornecedor' 
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/fornecedor
 server:
   port: 8081
   
+ 
 eureka:
   client:
     fetch-registry: true
