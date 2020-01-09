@@ -5,9 +5,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class IntemDaCompraDTO {
+public class InfoPedidoDTO {
 	
-	private Long id;
-	private Long quantidade;
+	private String id;
+	private Integer tempoDePreparo;
 
 }
